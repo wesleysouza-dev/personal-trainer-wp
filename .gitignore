@@ -1,0 +1,16 @@
+# Ignorar arquivos principais do WordPress
+*.php
+wp-admin/
+wp-includes/
+wp-content/
+
+# Mas manter a pasta wp-content/themes/seutema
+!wp-content/themes/
+!wp-content/themes/seutema/**
+
+# Manter também plugins customizados (se quiser)
+!wp-content/plugins/
+!wp-content/plugins/seu-plugin/**
+
+# Ignorar uploads (imagens, etc.)
+wp-content/uploads/
